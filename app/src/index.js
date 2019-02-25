@@ -33,7 +33,6 @@ const App = {
     const id = document.getElementById("starId").value;
     let status = document.getElementById("status");
     if (isNaN(id) || id == '' || name == '') {
-    //  alert('Star ID or Star Name cannot be Null & Star Id should be a Number!!');
     status.innerHTML = `Star ID or Star Name cannot be Null & Star Id should be a Number!!`;
     status.style.color = "Red";
       return ;
