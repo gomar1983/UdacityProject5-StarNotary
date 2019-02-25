@@ -1,7 +1,4 @@
-# UdacityProject5-StarNotary
 
-
-Specify the Truffle version and OpenZeppelin version used in the project.
 openzeppelin-solidity": "^2.1.2"
 css-loader: "^2.1.0"
 style-loader: "^0.23.1"
