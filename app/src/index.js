@@ -58,9 +58,13 @@ const App = {
       return ;
         } else {
       let starName = await lookUptokenIdToStarInfo(tokenId).call();
+      if (starName == '') {
+        status.innerHTML = `Did not find the Starname with Id: ${tokenId}`;
+        status.style.color = "Red";
+      }else {
       status.innerHTML = `Star name is ${starName}`;
       status.style.color = "black";
-
+      }
     }
 
   }
